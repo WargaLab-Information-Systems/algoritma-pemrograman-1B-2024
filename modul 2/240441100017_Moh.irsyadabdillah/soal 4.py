@@ -1,33 +1,14 @@
 
-nama_pembeli = input("Masukkan nama pembeli: ")
-usia_pembeli = int(input("Masukkan usia pembeli: "))
-total_belanja = float(input("Masukkan total belanja: "))
-kartu_member = input("Apakah anda memiliki kartu member? (y/t): ")
+tahun = int(input("Masukkan tahun: "))
 
+#habis di modulus 400 berarti tahun kabisat
+if (tahun % 400 == 0):
+    kabisat = "tahun kabisat"
 
-if usia_pembeli < 18:
-    print("Maaf usia anda belum mencukupi.")
-
-
+    #habis di modulus 4 dan harus tidak habis dimodulus 100 (harus bersisa jika dimodulus 100)
+elif (tahun % 4 == 0 and tahun % 100 != 0):
+    kabisat = "tahun kabisat"
 else:
-    diskon = 0
+    kabisat = "bukan tahun kabisat"
 
-    #cek punya member atau tdk
-    if kartu_member == 'y':
-        diskon = diskon + 15 
-
-    #cek total belanja lebih dari 500.000 atau tidak jika iya dapat diskon tambahan 10%
-    if total_belanja > 500000:
-        diskon = diskon + 10  
-
-
-    total_harga_sebelum_diskon = total_belanja
-
-    #cek harga setelah diskon
-    total_harga_setelah_diskon = total_harga_sebelum_diskon * (1 - (diskon / 100))
-
-
-    print(f"\nNama Pembeli: {nama_pembeli}")
-    print(f"Diskon yang didapatkan: {diskon}%")
-    print(f"Total harga sebelum diskon: Rp{total_harga_sebelum_diskon:}")
-    print(f"Total harga setelah diskon: Rp{total_harga_setelah_diskon:}")
+print(f"{tahun} adalah {kabisat}.")

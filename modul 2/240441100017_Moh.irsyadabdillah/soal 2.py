@@ -1,4 +1,4 @@
-skor_ida = 1000
+skor_ida = 100
 skor_jaka = 1100
 ipk_ida = 3.5
 ipk_jaka = 3.5

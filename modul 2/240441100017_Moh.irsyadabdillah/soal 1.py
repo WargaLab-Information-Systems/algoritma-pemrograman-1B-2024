@@ -20,4 +20,4 @@ elif rata_rata <= 80:
 elif rata_rata <=100:
     print("anda mendapatkan nilai A")
 else:
-    print("nilai yang ada masukkan lebih dari 100 coba input ulang")
+    print("nilai yang anda masukkan lebih dari 100 coba input ulang")
