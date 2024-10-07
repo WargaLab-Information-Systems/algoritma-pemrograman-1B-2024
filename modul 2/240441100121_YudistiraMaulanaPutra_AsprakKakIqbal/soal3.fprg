@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2.Flowchart"/>
+        <attribute name="authors" value="COMPUTER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 02:41:44 PM"/>
+        <attribute name="created" value="Q09NUFVURVI7QkVOSkFNSU47MjAyNC0xMC0wNjswNzo1NTowNiBBTTsyNDcw"/>
+        <attribute name="edited" value="Q09NUFVURVI7QkVOSkFNSU47MjAyNC0xMC0wNzswMjo0MTo0NCBQTTszOzI1ODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="skorJaka" type="Integer" array="False" size=""/>
+            <declare name="ipkJaka" type="Integer" array="False" size=""/>
+            <declare name="skorIda" type="Integer" array="False" size=""/>
+            <declare name="ipkIda" type="Integer" array="False" size=""/>
+            <declare name="skorLulus" type="Integer" array="False" size=""/>
+            <declare name="ipkLulus" type="Integer" array="False" size=""/>
+            <assign variable="skorJaka" expression="1100"/>
+            <assign variable="ipkJaka" expression="3.5"/>
+            <assign variable="skorIda" expression="1000"/>
+            <assign variable="ipkIda" expression="3.5"/>
+            <assign variable="skorLulus" expression="1100"/>
+            <assign variable="ipkLulus" expression="3.0"/>
+            <if expression="skorJaka &gt; skorLulus and ipkJaka &gt;= ipkLulus">
+                <then>
+                    <output expression="&quot;Jaka lulus syarat beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Jaka tidak lulus syarat beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="skorIda &gt; skorLulus and ipkIda &gt;= ipkLulus">
+                <then>
+                    <output expression="&quot;Ida lulus syarat beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ida tidak lulus syarat beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
