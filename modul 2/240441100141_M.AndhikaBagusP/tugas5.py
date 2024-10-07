@@ -8,16 +8,16 @@ diskon = 0
 if usia < 18:
     print("Maaf usia anda belum mencukupi")
     exit()
-    
+
 else:
     # menentukan diskon
     if kartuMember == "y":
-        diskon += 0.15 # persentase 15% menjadi desimal 0.15
-    elif totalBelanja >= 500000:
-        diskon += 0.10 # persentase 10% menjadi desimal 0.10
+        diskon += 15
+    if totalBelanja >= 500000:
+        diskon += 10
         
 # rumus harga setelah diskon
-hargaDiskon = int(totalBelanja * (1 - diskon))
+hargaDiskon = int((diskon / 100) * totalBelanja)
         
 # Hasil        
-print(f"Hai {nama}, anda mendapatkan diskon sebesar {diskon}, harga awal sebesar {totalBelanja} jadi anda hanya membayar {hargaDiskon}")
+print(f"Hai {nama}, anda mendapatkan diskon sebesar {diskon}%, harga awal sebesar Rp.{totalBelanja} jadi anda hanya membayar Rp.{hargaDiskon}")

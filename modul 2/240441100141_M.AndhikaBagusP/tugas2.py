@@ -1,22 +1,13 @@
 # input data
-nama1 = "Jaka"
-nama2 = "Ida"
-skorNama1 = 1100
-ipkNama1 = float(3.5)
-skorNama2 = 1000
-ipknama2 = float(3.5)
+skorJaka = 1100
+ipkJaka = float(3.5)
+skorIda = 1000
+ipkIda = float(3.5)
 minSkor = 1100
 minIpk = float(3.0)
-
-# menentukan persyaratan beasiswa
-if nama1 == "Jaka":
-    if skorNama1 >= minSkor and ipkNama1 >= minIpk:
-        print(f"{nama1} lulus persyaratan")
-    else:
-        print(f"{nama1} tidak lulus persyaratan")
         
-if nama2 == "Ida":
-    if skorNama2 >= minSkor and ipknama2 >= minIpk:
-        print(f"{nama2} lulus persyaratan")
-    else:
-        print(f"{nama2} tidak lulus persyaratan")
+Jaka = "Jaka lulus persyaratan" if skorJaka >= minSkor and ipkJaka >= minIpk else "Jaka tidak lulus persyaratan"
+print(Jaka)
+
+Ida = "Ida lulus persyaratan" if skorIda >= minSkor and ipkIda >= minIpk else "Ida tidak lulus persyaratan"
+print(Ida)
