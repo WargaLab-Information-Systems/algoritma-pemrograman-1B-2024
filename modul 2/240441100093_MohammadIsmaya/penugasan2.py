@@ -1,3 +1,4 @@
+
 nama = input("masukkan nama: ")
 skor = int(input("masukkan skor: "))
 ipk = float(input("masukkan ipk: "))

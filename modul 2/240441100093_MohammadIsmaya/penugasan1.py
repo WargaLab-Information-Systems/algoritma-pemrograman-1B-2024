@@ -1,4 +1,3 @@
-#Soal Nomer 1
 
 nama = input("Masukan Nama:")
 nim = int(input("Masukan Nim:"))
@@ -23,4 +22,3 @@ else:
 print("Masukan Nama", nama)  
 print("Nim anda :", nim)
 print("Nilai rata rata nilai anda", nilai_rata_rata)
-     
