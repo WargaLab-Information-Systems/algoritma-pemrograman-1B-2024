@@ -1,0 +1,22 @@
+skor_jaka = 1100
+ipk_jaka = 3.5
+skor_ida = 1000
+ipk_ida = 3.5
+skor_minimal = 1100
+ipk_minimal = 3.0
+
+# Jaka
+if skor_jaka <= skor_minimal:
+    print ("Jaka tidak lolos pernyataan beasiswa")
+elif ipk_jaka < ipk_minimal:
+    print ("Jaka tidak lolos pernyataan beasiswa")
+else :
+    print ("Jaka lolos pernyataan beasiswa")
+
+# Ida
+if skor_ida <= skor_minimal :
+    print ("Ida tidak lolos pernyataan beasiswa")
+elif ipk_ida < ipk_minimal :
+    print ("Ida tidak lolos Penyataan beasiswa")
+else :
+    print ("Ida lolos pernyataan beasiswa") 
