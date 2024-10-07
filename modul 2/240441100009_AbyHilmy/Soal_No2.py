@@ -7,7 +7,7 @@ if skorjaka >=1100 and ipkjaka >= 3:
 else:
     print("jaka tidak lulus")
 
-if skorida >=1100 and ipkjaka>= 3:
+if skorida >=1100 and ipkida>= 3:
     print("Ida lulus")
 else:
     print("Ida tidak lulus")
