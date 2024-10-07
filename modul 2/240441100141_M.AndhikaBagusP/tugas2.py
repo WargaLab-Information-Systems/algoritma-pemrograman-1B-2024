@@ -5,7 +5,7 @@ skorIda = 1000
 ipkIda = float(3.5)
 minSkor = 1100
 minIpk = float(3.0)
-        
+
 Jaka = "Jaka lulus persyaratan" if skorJaka >= minSkor and ipkJaka >= minIpk else "Jaka tidak lulus persyaratan"
 print(Jaka)
 

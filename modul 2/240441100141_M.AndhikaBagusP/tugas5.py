@@ -18,6 +18,7 @@ else:
         
 # rumus harga setelah diskon
 hargaDiskon = int((diskon / 100) * totalBelanja)
+hargaSetelahDiskon = totalBelanja - hargaDiskon
         
 # Hasil        
-print(f"Hai {nama}, anda mendapatkan diskon sebesar {diskon}%, harga awal sebesar Rp.{totalBelanja} jadi anda hanya membayar Rp.{hargaDiskon}")
+print(f"Hai {nama}, anda mendapatkan diskon sebesar {diskon}%, harga awal sebesar Rp.{totalBelanja} jadi anda hanya membayar Rp.{hargaSetelahDiskon}")
