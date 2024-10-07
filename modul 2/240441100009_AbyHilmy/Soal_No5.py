@@ -1,13 +1,13 @@
 # Mengambil input dari pengguna
 nama_pembeli = input("Masukkan nama pembeli: ")
 usia_pembeli = int(input("Masukkan usia pembeli: "))
-total_belanja = float(input("Masukkan total belanja: "))
-kartu_member = input("Apakah Anda memiliki kartu member? (ya/tidak): ")
 
 # Memeriksa usia pembeli
 if usia_pembeli < 18:
     print("Maaf, usia anda belum mencukupi.")
 else:
+    total_belanja = float(input("Masukkan total belanja: "))
+    kartu_member = input("Apakah Anda memiliki kartu member? (ya/tidak): ")
     # Menentukan diskon
     diskon = 0
     if kartu_member == 'ya':
