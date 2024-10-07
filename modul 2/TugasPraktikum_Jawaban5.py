@@ -27,5 +27,7 @@ else:
         print("Diskon yang didapat : ", diskon_10)
         print ("harga sebelum diskon : ", total_belanja)
         print("total harga setelah diskon : ", total_harga_setelah_diskon_10)  
+    else:
+        print("Total belanja anda : ",total_belanja)
 
 print("Terimakasih telah berkunjung di Bar kami.")  
