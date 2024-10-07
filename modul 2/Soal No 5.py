@@ -10,12 +10,12 @@ if umur < 18:
 
 else:
     if kartu_member == 'y':
-        diskon += 0.15
-    elif total_belanja >= 500000 :
-        diskon += 0.10
+        diskon += 15
+    if total_belanja >= 500000 :
+        diskon += 10
 # rumus harga setelah diskon
-hargadiskon = int(total_belanja * (1 - diskon))
-
+total_diskon = (diskon / 100) * total_belanja
+total_setelah_diskon = total_belanja - total_diskon
 
 # hasil
-print(f'{nama}, anda mendapatkan diskon sebesar {diskon}, harga awal sebesar {total_belanja} Rp, menjadi {hargadiskon} Rp')
+print(f'{nama}, anda mendapatkan diskon sebesar {diskon}%, harga awal sebesar Rp {total_belanja}, harga setelah diskon sebesar Rp {total_setelah_diskon}')
