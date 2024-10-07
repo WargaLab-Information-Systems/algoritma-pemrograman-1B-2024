@@ -20,3 +20,4 @@ elif rata_rata_nilai <=60 >=40 :
     print ("Anda Mendapat Nilai D")
 else :
     print ("Anda Mendapat Nilai E")
+    
