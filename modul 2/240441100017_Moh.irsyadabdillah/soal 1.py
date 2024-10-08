@@ -2,7 +2,6 @@ Nama = input("masukkan Nama =")
 NIM =int(input("masukkan NIM ="))
 Nilai_UTS =int(input("masukkan Nilai UTS ="))
 Nilai_UAS =int(input("masukkan Nilai UAS ="))
-
 print(f"Mahasiswa Atas Nama = {Nama} ")
 print(f"Dengan NIM = {NIM} ")
 
