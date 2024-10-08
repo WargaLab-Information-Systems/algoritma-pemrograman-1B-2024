@@ -6,14 +6,12 @@
 tahunkabisat= int (input("masukan tahun = "))
 if tahunkabisat%400==0:
     print(tahunkabisat,"tahun kabisat")
+elif tahunkabisat%4==0:
+    print(tahunkabisat, "termasuk juga tahun kabisat")
+elif tahunkabisat%100==0:
+    print(tahunkabisat, "bukan tahun kabisat")
 else:
-    if tahunkabisat%4==0:
-        print(tahunkabisat, "termasuk juga tahun kabisat")
-    else:
-        if tahunkabisat%100==0:
-            print(tahunkabisat, "bukan tahun kabisat")
-        else:
-            print(tahunkabisat, "bukan tahun kabisat")
+    print(tahunkabisat, "bukan tahun kabisat")
 
 
         

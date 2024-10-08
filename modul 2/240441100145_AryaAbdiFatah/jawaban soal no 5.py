@@ -1,8 +1,9 @@
 nama = input("Masukkan nama anda= ")
 usia = int(input("Berapakah usia anda?= "))
+
 if usia >= 18:
-    member = input("Apakah anda memiliki member?= ")
-    if member == "ada":
+    member = str(input("Apakah anda memiliki member?(y/n):= ")) .lower()
+    if member == 'y':
         total = int(input("Berapakah total pembelian anda?= "))
         if total >= 500000:
             diskon2 = (float(15) / 100 + float(10) / 100) * total
