@@ -10,12 +10,12 @@ if usia < 18:
     exit()
     
 if member == "ya":
-    diskon = diskon + 0.15  
+    diskon += 15  
         
 if total_belanja > 500000:
-    diskon = diskon + 0.10      
+    diskon += 10      
 
-total_diskon = total_belanja * diskon
+total_diskon = total_belanja * (diskon/100)
 total_setelah_diskon = total_belanja - total_diskon
 
 print(f"Nama Pembeli: {nama}")
