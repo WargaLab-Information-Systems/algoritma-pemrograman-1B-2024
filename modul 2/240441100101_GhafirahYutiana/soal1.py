@@ -22,3 +22,5 @@ elif 0 <= rata_rata <= 40:
     print("anda mendapatkan nilai E")
 else:
     print(" nilai yang didapatkan lebih dari 100 tidak ada kategori nilainya! silahkan input ulang")
+
+
