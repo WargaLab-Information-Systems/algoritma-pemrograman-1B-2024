@@ -13,7 +13,8 @@ while True:
             totalDenda += tambahanDenda     
     print(f"Denda yang harus dibayar: Rp.{totalDenda}")
     
-    tanya = input("Apakah anda ingin menghitung kembali?[y/n]")
+    tanya = input("Apakah anda ingin menghitung kembali?[y/n]").lower()
+    
     if tanya == "n":
         print("Terima kasih")
         break
