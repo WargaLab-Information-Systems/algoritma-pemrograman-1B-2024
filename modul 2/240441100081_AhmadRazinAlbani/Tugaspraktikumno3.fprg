@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="praktikumno3"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 08:55:44 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUDNJSjBQTVY7MjAyNC0xMC0wNTsxMTo0NTo1NyBBTTsyNjYw"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUDNJSjBQTVY7MjAyNC0xMC0wNzswODo1NTo0NCBQTTszOzI3OTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama" type="String" array="False" size=""/>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <declare name="ipk" type="Real" array="False" size=""/>
+            <output expression="&quot;masukkan nama anda:&quot;" newline="True"/>
+            <input variable="nama"/>
+            <output expression="&quot;masukkan skor anda:&quot;" newline="True"/>
+            <input variable="skor"/>
+            <output expression="&quot;masukkan ipk anda:&quot;" newline="True"/>
+            <input variable="ipk"/>
+            <if expression="skor &gt;= 1100 and ipk &gt;= 3.0">
+                <then>
+                    <output expression="&quot;Selamat, &quot;&amp;nama&amp;&quot; lulus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;maaf &quot; &amp;nama&amp; &quot; tidak lulus&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
