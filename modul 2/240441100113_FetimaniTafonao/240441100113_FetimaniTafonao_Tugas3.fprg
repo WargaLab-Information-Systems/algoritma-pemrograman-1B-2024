@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flow"/>
+        <attribute name="authors" value="JOIS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 04:19:50 PM"/>
+        <attribute name="created" value="Sk9JUztMQVBUT1AtN0ZQVE1MRUE7MjAyNC0xMC0wNzswNDowODo0MiBQTTsyNjcy"/>
+        <attribute name="edited" value="Sk9JUztMQVBUT1AtN0ZQVE1MRUE7MjAyNC0xMC0wNzswNDoxOTo1MCBQTTsxOzI3ODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama" type="String" array="False" size=""/>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <declare name="ipk" type="Real" array="False" size=""/>
+            <output expression="&quot;masukan nama&quot;" newline="True"/>
+            <input variable="nama"/>
+            <output expression="&quot;masukan skor&quot;" newline="True"/>
+            <input variable="skor"/>
+            <output expression="&quot;masukan ipk&quot;" newline="True"/>
+            <input variable="ipk"/>
+            <if expression="skor &gt;= 1100 and ipk &gt;= 3.5">
+                <then>
+                    <output expression="nama &amp; &quot;selamat anda lulus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="nama &amp; &quot;anda tidak lulus penyeleksian&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
