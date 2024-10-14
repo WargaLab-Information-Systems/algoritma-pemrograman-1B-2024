@@ -4,7 +4,7 @@ while True:
     total = 0
     hari = int(input("Berapa hari lama penyewaan DVD anda: "))
 
-    for i in range(1,hari+1):
+    for i in range(hari+1):
         if i > 5:
             total += harian
             if i % 10 == 0:
