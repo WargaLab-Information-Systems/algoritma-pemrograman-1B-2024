@@ -9,8 +9,10 @@ for i in range(tinggi):
         print("00000")  
     elif i < tinggi - 1:  
         print("0   0")  
-    print()
-    
+    else:
+        print()
+print()
+
 for i in range(tinggi):
     print("  1")
 print()
