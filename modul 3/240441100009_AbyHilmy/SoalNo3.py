@@ -14,7 +14,7 @@ while True:
     # Menampilkan total denda
     print("Total denda keterlambatan: Rp.", denda)
 
-    # Menanyakan apakah ingin menghitung kembali
+    # Menanyakan apakah ingin menghitung kembalii
     lagi = input("Apakah Anda ingin menghitung kembali? (ya/tidak): ").strip().lower()
     if lagi != 'ya':
         break

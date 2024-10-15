@@ -6,6 +6,6 @@ angka_balik = ""
 for i in range(len(angka) - 1, -1, -1):
     angka_balik += angka[i]
 
-# Menampilkan hasil
+# Menampilkan hasill
 print(angka_balik)
 
