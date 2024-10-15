@@ -1,31 +1,33 @@
+b = int(input("Masukan ukuran size:"))
 #menampilkan angka 1
-for i in range (7):
-    print("  x  ")
+for o in range (1, b+1, 1):
+    if o < b +1:
+        print (" " * (b // 2) + "*" + " " * (b // 2))
+# menampilkan angka 4
+for o in range(1, b+1 ,1):
+    if o < b // 2:
+        print("*" + " " * (b - 2)+ "*")
+    if o == b // 2:
+        print("*" * b)
+    if o > b // 2:
+        print (" " * (b -1) + "*")
+#menampilkan angka 5
+for o in range (1, b+1, 1):
+    if o == 1:
+        print ("*" * (b))
+    if o < (b // 2)- 1:
+        print("*")
+    if o == b // 2:
+        print("*" * (b))
+    if o > (b // 2) + 1:
+        print(" " * (b - 1) + "*")
+    if o == b:
+        print ("*" * (b))
 
 
-#menampilkan angka 4
-for i in range(7):
-    if i == 0:  # Baris pertama
-        print("h     h")
-    elif i in [1, 2]:  # Baris kedua dan ketiga
-        print("x     x")
-    elif i == 3:  # Baris keempat
-        print("hhhhhhh")
-    elif i in [4, 5]:  # Baris kelima dan keenam
-        print("      x")
-    else:  # Baris terakhir
-        print("      x")
+
+
+
   
-#Menampilkan angka 5
-for i in range(7):
-    if i == 0:  # Baris pertama
-        print("hhhhhhh")
-    elif i in [1, 2]:  # Baris kedua dan ketiga
-        print("x      ")
-    elif i == 3:  # Baris keempat
-        print("hhhhhhh")
-    elif i in [4, 5]:  # Baris kelima dan keenam
-        print("      x")
-    else:  # Baris terakhir
-        print("hhhhhhh")
+
   

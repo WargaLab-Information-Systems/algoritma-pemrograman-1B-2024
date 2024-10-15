@@ -14,7 +14,7 @@ while True:
 
     print("Total denda keterlambatan: Rp.", totaldenda)
 
-    ulang = input("Apakah Anda ingin menghitung kembali? (y/n): ").lower()
-    if ulang != 'y':
+    ulang = str(input("Apakah Anda ingin menghitung kembali? (y/n):= "))
+    if ulang == 'n':
         break
        
