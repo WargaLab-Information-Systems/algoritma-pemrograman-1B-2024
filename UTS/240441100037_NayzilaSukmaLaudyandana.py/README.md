@@ -1,0 +1,1 @@
+pertama kita menginputkan apakah kita sudah makan dan mandi jika sudah lanjut kita akan menggunakan tranportasi apa apakah jalan atau naik sepeda motor jika jalan kaki kita memiliki waktu 30 menit jika naik motor kita memiliki waktu 10 menit.
