@@ -25,5 +25,6 @@ while True:
         break
     else:
         print("Kamu terlambat")   
-        if makan != "ya" and makan != "tidak" and mandi != "ya" and mandi != "tidak" and trans!="jalan kaki" and trans!= "menggunakan motor":
-         continue 
+        
+    if makan != "ya" and makan != "tidak" and mandi != "ya" and mandi != "tidak" and trans!="jalan kaki" and trans!= "menggunakan motor":
+        continue 
