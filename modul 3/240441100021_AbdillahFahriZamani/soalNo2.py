@@ -6,6 +6,7 @@ balik = " "
 
 # Looping untuk membalik urutan
 for i in angka :
+    print(balik)
     balik = i + balik
 
 # Output
