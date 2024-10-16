@@ -1,0 +1,26 @@
+# Menghitung berapa bannyak cara untuk membentuk tim
+# NO 4
+
+import math
+
+# Diketahui
+n = 7 #Jumlah Orang
+r = 4 #YangDipilih
+
+# Cara menghitung banyak cara untuk memilih 4 orang dari 7 orang
+# n = 7 | r = 4
+# 7! | 4! (7-4)! #Substitusi ke dalam rumus
+# 7! | 4! * 3!
+# Faktorial hitungan
+# 7! = 7x6x5x4!
+# 4! = 4x3x2x1 = 24
+# 3! = 3x2x1 =6
+# 7x6x5 / 3
+# hitungan nilai 3
+# 3! = 6
+# hitung nilai kombinasi
+# C(7,6)= 7x6x4 / 6 
+# 7 x 5 = 35
+
+jumlah_cara = math.comb(n, r)
+print(f" jumlah cara untuk memilih {r} orang dari {n} orang adalah {jumlah_cara} cara.")  
