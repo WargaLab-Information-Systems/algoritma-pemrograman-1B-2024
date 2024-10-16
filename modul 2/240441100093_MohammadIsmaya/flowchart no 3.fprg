@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowchart no 2"/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-04 03:51:45 AM"/>
+        <attribute name="created" value="TEVOT1ZPO0RFU0tUT1AtTjFSUENTTTsyMDI0LTEwLTAzOzA4OjEzOjM1IFBNOzI4NDI="/>
+        <attribute name="edited" value="TEVOT1ZPO0RFU0tUT1AtTjFSUENTTTsyMDI0LTEwLTA0OzAzOjUxOjQ1IEFNOzI7MjkzNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="skor, ipk" type="Real" array="False" size=""/>
+            <declare name="nama" type="String" array="False" size=""/>
+            <output expression="&quot;masukkan nama&quot;" newline="True"/>
+            <input variable="nama"/>
+            <output expression="&quot;masukkan skor&quot;" newline="True"/>
+            <input variable="skor"/>
+            <output expression="&quot;masukkan ipk&quot;" newline="True"/>
+            <input variable="ipk"/>
+            <if expression="skor &gt;= 1100 &amp;&amp; ipk &gt;=3.0">
+                <then>
+                    <output expression="&quot;lulus beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;tidak lulus beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

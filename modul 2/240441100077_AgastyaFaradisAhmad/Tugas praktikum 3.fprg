@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowww"/>
+        <attribute name="authors" value="krikri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-10 06:57:30 PM"/>
+        <attribute name="created" value="a3Jpa3JpO0RFU0tUT1AtSzBHU0w2MDsyMDI0LTEwLTA4OzAxOjAxOjE2IFBNOzI5NjA="/>
+        <attribute name="edited" value="a3Jpa3JpO0RFU0tUT1AtSzBHU0w2MDsyMDI0LTEwLTEwOzA2OjU3OjMwIFBNOzI7MzA3NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="SkorJaka" type="Integer" array="False" size=""/>
+            <declare name="IPKJaka" type="Real" array="False" size=""/>
+            <declare name="SkorIda" type="Integer" array="False" size=""/>
+            <declare name="IPKIda" type="Real" array="False" size=""/>
+            <assign variable="SkorJaka" expression="1100"/>
+            <assign variable="IPKJaka" expression="3.5"/>
+            <if expression="SkorJaka&gt;=1100 and IPKJaka&gt;=3.0">
+                <then>
+                    <output expression="&quot;Jaka lulus persyaratan beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Jaka tidak lulus persyaratan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+            <assign variable="SkorIda" expression="1000"/>
+            <assign variable="IPKIda" expression="3.5"/>
+            <if expression="SkorIda&gt;=1100 and IPKIda&gt;=3.0">
+                <then>
+                    <output expression="&quot;Ida lulus persyaratan beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ida tidak lulus persyaratan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
