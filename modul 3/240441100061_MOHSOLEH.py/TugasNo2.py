@@ -8,3 +8,5 @@ if angka.isdigit():
     print("Angka setelah dibalik:", angka_terbalik)
 else:
     print("Input harus berupa angka!")
+
+# test

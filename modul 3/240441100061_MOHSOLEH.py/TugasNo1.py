@@ -30,3 +30,5 @@ for i in range(size):
             print("" + "x")
         else:
             print("" + "x")
+
+# test

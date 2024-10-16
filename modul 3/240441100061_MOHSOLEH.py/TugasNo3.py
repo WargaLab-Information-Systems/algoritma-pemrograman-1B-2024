@@ -37,3 +37,4 @@ while True:
     if ulang != 'y':
         print("JANGAN LUPA DI BAYAR DENDANYA!")
         break
+# test
