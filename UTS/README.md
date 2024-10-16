@@ -1,9 +1,10 @@
-# Repository UTS praktikum Algoritma Pemrograman 1B-2024
+Program ini akan membantu untuk mengecek kesiapan sebelum berangkat ke kampus
 
-Repository UTS Praktikum ALPRO-1B-2024.
+Jika menginput tidak maka makan akan membutuhkan waktu 15 menit untuk waktu mandi 
+Jika menginput tidak maka mandi akan membutuhkan waktu 10 menit untuk waktu mandi 
+Jika menginput trans jalan kaki akan membutuhkan waktu 30 menit
+Jika menginput trans menggunakan motor akan membutuhkan waktu 30 menit
 
-Kumpulkan Tugas di folder ini yang sudah dibuat, penamaan folder dengan format NIM-NamaKamu, dan untuk nama tidak menggunakan spasi, namun diganti dengan huruf kapital di setiap nama atau awal kalimat
+dan jika inputan salah maka akan mengulang
 
-\*contoh: 220441100026-Ar'raffiAbqoriNurAzizi
-
-Kumpulkan tugas yang sudah dibuat di folder yang sudah disediakan dan kumpulkan tugas ketika sudah melakukan asistensi kepada Asisten Praktikum.
+kemudian semua akan dihitung dan di print sesuai dengan jawaban yang telah diinputkan 
