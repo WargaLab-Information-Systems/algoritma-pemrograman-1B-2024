@@ -15,13 +15,13 @@ skor2 = float(input(f"Masukkan skor {nama2}: "))
 ipk2 = float(input(f"Masukkan IPK {nama2}: "))
 
 # Mengecek kelulusan Mahasiswa 1
-if skor1 > minimal_skor and ipk1 >= minimal_ipk:
+if skor1 >= minimal_skor and ipk1 > minimal_ipk:
     print(f"{nama1} lulus persyaratan beasiswa.")
 else:
     print(f"{nama1} tidak lulus persyaratan beasiswa.")
 
 # Mengecek kelulusan Mahasiswa 2
-if skor2 > minimal_skor and ipk2 >= minimal_ipk:
+if skor2 >= minimal_skor and ipk2 > minimal_ipk:
     print(f"{nama2} lulus persyaratan beasiswa.")
 else:
     print(f"{nama2} tidak lulus persyaratan beasiswa.")
