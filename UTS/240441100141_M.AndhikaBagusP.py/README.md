@@ -1,0 +1,1 @@
+Pada pemrograman tersebut terdapat penyeleksian kondisi if-elif-else untuk menentukan sebuah kondisi serta terdapat perulangan looping. Untuk mendapatkan hasil waktu pada pemrograman tersebut menggunakan operasi aritmatika yang berfungsi untuk menambahkan waktu tersebut.

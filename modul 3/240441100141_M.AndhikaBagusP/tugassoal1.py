@@ -17,6 +17,7 @@ for row in range(size*2):
             print(" ", end = " ")
     print()
 
+
 for row in range(size):
     for col in range(size):
         if col==size//2:

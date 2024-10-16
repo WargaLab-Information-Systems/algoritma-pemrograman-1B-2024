@@ -6,4 +6,4 @@ while angka != 0:
     angkaTerbalik = angkaTerbalik * 10 + digit
     angka = angka // 10
 
-print(f"Angka setelah dibalik {angkaTerbalik}: ")
+print(f"Angka setelah dibalik {angkaTerbalik}") 
