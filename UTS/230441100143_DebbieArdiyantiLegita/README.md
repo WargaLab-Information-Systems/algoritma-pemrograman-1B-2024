@@ -1,0 +1,1 @@
+Program ini berfungsi untuk menghitung waktu yang di butuhkan untuk ke Kampus. Menggunakan perintah if-else, dan menanyakan perisapan seperti makan dan mandi, memberi pilihan transportasi dan menghitung waktu yang di perlukan untuk ke kampus
