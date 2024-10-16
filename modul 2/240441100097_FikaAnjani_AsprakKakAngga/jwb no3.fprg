@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="jwb no3"/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 04:53:35 PM"/>
+        <attribute name="created" value="YWNlcjtERVNLVE9QLUlCMlJONkk7MjAyNC0xMC0wNzsxMjo1MzoxOSBQTTsyNzUx"/>
+        <attribute name="edited" value="YWNlcjtERVNLVE9QLUlCMlJONkk7MjAyNC0xMC0wNzswNDo1MzozNSBQTTsxOzI4NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="skorjaka" type="Integer" array="False" size=""/>
+            <declare name="ipkjaka" type="Real" array="False" size=""/>
+            <assign variable="skorjaka" expression="1100"/>
+            <assign variable="ipkjaka" expression="3.5"/>
+            <if expression="skorjaka &gt; 1100 and ipkjaka &gt; 3.0">
+                <then>
+                    <output expression="&quot;jaka lulus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;jaka tidak lulus&quot;" newline="True"/>
+                </else>
+            </if>
+            <declare name="skorida" type="Integer" array="False" size=""/>
+            <assign variable="skorida" expression="1000"/>
+            <declare name="ipkida" type="Real" array="False" size=""/>
+            <assign variable="ipkida" expression="3.5"/>
+            <if expression="skorida &gt; 1100 and ipkida &gt; 3.0">
+                <then>
+                    <output expression="&quot;ida lulus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ida tidk lulus&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

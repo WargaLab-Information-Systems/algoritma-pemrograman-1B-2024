@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowchart praktikum no 3"/>
+        <attribute name="authors" value="adeli"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 04:00:35 PM"/>
+        <attribute name="created" value="YWRlbGk7TEFQVE9QLUJTUERSSVVOOzIwMjQtMTAtMDc7MDU6NDI6MjAgQU07Mjg5Mw=="/>
+        <attribute name="edited" value="YWRlbGk7TEFQVE9QLUJTUERSSVVOOzIwMjQtMTAtMDg7MDQ6MDA6MzUgUE07MjszMDE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="skorjaka" type="Integer" array="False" size=""/>
+            <declare name="ipkjaka" type="Real" array="False" size=""/>
+            <assign variable="skorjaka" expression="1100"/>
+            <assign variable="ipkjaka" expression="3.5"/>
+            <if expression="skorjaka &gt; 1100 and ipkjaka &gt;= 3.0">
+                <then>
+                    <output expression="&quot;Selamatjaka,anda lulus persyaratan beasiswa dengan skor&quot;&amp;skorjaka&amp;&quot;dan IPK&quot;&amp;ipkjaka" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Maaf jaka,anda tidak lulus&quot;" newline="True"/>
+                </else>
+            </if>
+            <declare name="skorida" type="Integer" array="False" size=""/>
+            <declare name="ipkida" type="Real" array="False" size=""/>
+            <assign variable="skorida" expression="1000"/>
+            <assign variable="ipkida" expression="3.5"/>
+            <if expression="skorida &gt; 1100 and ipkida &gt;=3.5">
+                <then>
+                    <output expression="&quot;Selamat ida, anda lulus persyaratan beasiswa dengan skor&quot;&amp;skorida&amp;&quot;dan IPK&quot;&amp;ipkida" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Maaf ida,anda tidak lulus&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
