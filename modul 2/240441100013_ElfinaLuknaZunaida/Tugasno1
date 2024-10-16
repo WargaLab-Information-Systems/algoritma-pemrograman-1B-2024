@@ -1,0 +1,24 @@
+nama = input("Masukkan nama")
+nim = input ("Masukkan NIM ")
+nilai_uts = int(input ("Masukkan nilai UTS"))
+nilai_uas = int(input("Masukkan nilai UAS"))
+
+rata_rata_nilai = (nilai_uts + nilai_uas) / 2
+
+print("masukkan nama: ", nama)
+print("nim anda :", nim)
+print ("nilai rata rata anda adalah", rata_rata_nilai)
+
+rata_rata_nilai = (nilai_uts + nilai_uas) / 2
+if rata_rata_nilai >=81 <= 100 :
+    print ("Anda Mendapat Nilai A")
+elif rata_rata_nilai >=71 <=80  :
+    print ("Anda Mendapat Nilai B")
+elif rata_rata_nilai >=61 <=70  :
+    print ("Anda Mendapat Nilai C")
+elif rata_rata_nilai >=41 <=60 :
+    print ("Anda Mendapat Nilai D")
+elif rata_rata_nilai >=0 <=40:
+    print ("Anda Mendapat Nilai E")
+else :
+    print ("Nilai tidak memenuhi")
