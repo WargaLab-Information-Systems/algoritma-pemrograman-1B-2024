@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="soal no 2"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 02:06:33 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtRFNCTjhCUFE7MjAyNC0xMC0wNzswMToxODowNSBQTTsyNjc4"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtRFNCTjhCUFE7MjAyNC0xMC0wNzswMjowNjozMyBQTTsxOzI3ODU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama" type="String" array="False" size=""/>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <declare name="ipk" type="Real" array="False" size=""/>
+            <output expression="&quot;masukkan nama&quot;" newline="True"/>
+            <input variable="nama"/>
+            <output expression="&quot;masukkan skor&quot;" newline="True"/>
+            <input variable="skor"/>
+            <output expression="&quot;masukkan ipk&quot;" newline="True"/>
+            <input variable="ipk"/>
+            <if expression="skor &gt; 1100 and ipk &gt;=3.5">
+                <then>
+                    <output expression="&quot;anda lolos persyaratan beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;anda tidak lolos persyaratan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

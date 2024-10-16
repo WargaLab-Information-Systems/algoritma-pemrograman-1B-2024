@@ -1,0 +1,10 @@
+print("masukkan nama anda")
+nama = input()
+print("masukkan ipk anda")
+ipk = float(input())
+print("masukkan skor anda")
+skor = int(input())
+if ipk >= 3.0 and skor > 1100:
+    print(" lulus pernyataan beasiswa ")
+else:
+    print(" tidak lulus pernyataan beasiswa")
