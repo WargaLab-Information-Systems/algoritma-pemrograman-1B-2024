@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowchart praktikum modul 2"/>
+        <attribute name="authors" value="Andi Murai"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 08:12:02 AM"/>
+        <attribute name="created" value="QW5kaSBNdXJhaTtERVNLVE9QLVBQS1ZQNlI7MjAyNC0xMC0wNzswODowMzozOSBBTTszMzEw"/>
+        <attribute name="edited" value="QW5kaSBNdXJhaTtERVNLVE9QLVBQS1ZQNlI7MjAyNC0xMC0wNzswODoxMjowMiBBTTsxOzM0MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="skorjaka, skorida" type="Integer" array="False" size=""/>
+            <declare name="ipkjaka, ipkida" type="Real" array="False" size=""/>
+            <assign variable="skorjaka" expression="1100"/>
+            <assign variable="skorida" expression="1000"/>
+            <assign variable="ipkjaka" expression="3.5"/>
+            <assign variable="ipkida" expression="3.5"/>
+            <if expression="skorjaka &gt;= 1100 and ipkjaka &gt;= 3.5">
+                <then>
+                    <output expression="&quot;Jaka Lolos Seleksi Penerimaan Beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Jaka Tidak Lolos Seleksi Penerimaan Beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="skorida &gt;= 1100 and ipkida &gt;= 3.5">
+                <then>
+                    <output expression="&quot;Ida Lolos Seleksi Penerimaan Beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ida tidak Lolos Seleksi Penerimaan Beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
