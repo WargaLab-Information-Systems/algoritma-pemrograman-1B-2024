@@ -6,9 +6,9 @@
 # for i in [5, 4, 3, 2, 1]:
 #     print(i)
 
-T = [(1,2), (3,4), (5,4)]
-for (a,b) in T:
-      print(a,b)
+# T = [(1,2), (3,4), (5,4)]
+# for (a,b) in T:
+#       print(a,b)
       
 # x = 1
 # while x < 10:
@@ -36,7 +36,7 @@ for (a,b) in T:
 # x = "AlproB" #mengurangi satu huruf
 # while x:
 #     print (x)
-#     x = x[1:]
+#     x = x[1:] #array
     
   
 # a = 0; b = 10
@@ -93,10 +93,11 @@ for (a,b) in T:
 #     print(i)
     
 #PASS
+
+
+
 # for i in range (5):
 #     if i == 3:
 #         pass
 #     else:
 #         print(i)
-
-
