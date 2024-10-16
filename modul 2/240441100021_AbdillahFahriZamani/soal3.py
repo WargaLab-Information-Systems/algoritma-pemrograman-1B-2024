@@ -1,1 +1,0 @@
-# Buatkan Flowchart dan Pseudocode nya untuk soal nomor 2. 
