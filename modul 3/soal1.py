@@ -14,7 +14,7 @@ for baris in range(size):
     for kolom in range(size):
         if baris == 0 or baris == size - 1 or kolom == 0 or kolom == size - 1:
             print("0", end="")
-        else:
+        else: 
             print(" ", end="")
     print()
 

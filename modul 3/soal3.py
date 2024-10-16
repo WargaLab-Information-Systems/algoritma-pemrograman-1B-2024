@@ -4,7 +4,7 @@ while True:
     total_denda = 0
  
     for hari in range(1, keterlambatan + 1):
-        total_denda += 2500  # Denda Rp.2500 per hari
+        total_denda += 2500 
         
         if hari > 10 and hari % 5 == 0:
             total_denda += 5500
@@ -14,6 +14,6 @@ while True:
     else:
         print("DVD dikembalikan tepat waktu. Tidak ada denda.")
 
-    if input("Hitung lagi? (ya/tidak): ").strip().lower() != 'ya':
+    if input("Hitung lagi? (ya/tidak): ").lower() != 'ya':
         print("Terima kasih telah menggunakan program ini.")
         break
