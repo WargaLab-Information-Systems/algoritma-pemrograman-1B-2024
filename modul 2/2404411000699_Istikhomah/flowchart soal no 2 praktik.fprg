@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowchart soal no 2 praktik"/>
+        <attribute name="authors" value="istikhomah"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 07:32:58 PM"/>
+        <attribute name="created" value="aXN0aWtob21haDtMQVBUT1AtS1Y4NDJITVA7MjAyNC0xMC0wMzswMzo1NzowMiBQTTszNDAz"/>
+        <attribute name="edited" value="aXN0aWtob21haDtMQVBUT1AtS1Y4NDJITVA7MjAyNC0xMC0wNzswNzozMjo1OCBQTTs3OzM1Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama" type="String" array="False" size=""/>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <declare name="IPK" type="Real" array="False" size=""/>
+            <declare name="hasil" type="String" array="False" size=""/>
+            <output expression="&quot;Masukkan nama Anda&quot;" newline="True"/>
+            <input variable="nama"/>
+            <output expression="&quot;Masukkan skor Anda&quot;" newline="True"/>
+            <input variable="skor"/>
+            <output expression="&quot;Masukkan IPK Anda&quot;" newline="True"/>
+            <input variable="IPK"/>
+            <if expression="skor&gt;=1100">
+                <then>
+                    <assign variable="hasil" expression="&quot;Anda dinyatakan lulus persyaratan beasiswa&quot;"/>
+                    <if expression="IPK&gt;=3.0">
+                        <then>
+                            <assign variable="hasil" expression="&quot;Anda dinyatakan lulus persyaratan beasiswa&quot;"/>
+                        </then>
+                        <else>
+                            <assign variable="hasil" expression="&quot;Anda dinyatakan tidak lulus persyaratan beasiswa. TETAP SEMANGAT!!&quot;"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="hasil" expression="&quot;Anda dinyatakan tidak lulus persyaratan beasiswa. TETAP SEMANGAT!!&quot;"/>
+                </else>
+            </if>
+            <output expression="hasil" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

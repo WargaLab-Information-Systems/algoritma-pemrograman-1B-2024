@@ -1,0 +1,1 @@
+dalam program ini untuk menanyakan apakah sudah makan ataupun mandi serta transportasi apa yang akan digunakan.Serta memberitahukan waktu yang diperlukan untuk bersiap-siap dan waktu perjalanan.

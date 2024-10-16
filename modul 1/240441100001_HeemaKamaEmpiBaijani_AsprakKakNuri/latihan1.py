@@ -25,15 +25,16 @@ print(pangkat)
 print(modulus)
 print(bilangan_bulat)
 
+#OPERATOR BOOLEAN 
+x = True
+y = False
+
+hasil_and = x and y
+hasil_or = x or y
+hasil_not = not x
+print(hasil_not)
+
 #OPERATOR LOGIKA
-# x = True
-# y = False
-
-# hasil_and = x and y
-# hasil_or = x or y
-# hasil_not = not x
-# print(hasil_not)
-
 x = 5
 
 print (x>3 and x<10)
@@ -44,7 +45,7 @@ b = {3, 4, 5}
 
 penggabungan = a | b
 
-#operator etenary 
+#operator tenary 
 umur = 18
 status = "dewasa" if umur >= 18 else "belum dewasa"
 print(status) #output dewasa
