@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="praktikum2 flowchart"/>
+        <attribute name="authors" value="Elfina"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 10:16:04 AM"/>
+        <attribute name="created" value="RWxmaW5hO0VMRklOQTsyMDI0LTEwLTA1OzA2OjE4OjA2IFBNOzIzMDE="/>
+        <attribute name="edited" value="RWxmaW5hO0VMRklOQTsyMDI0LTEwLTA4OzEwOjE2OjA0IEFNOzQ7MjM5MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama" type="String" array="False" size=""/>
+            <declare name="ipk" type="Real" array="False" size=""/>
+            <declare name="skor" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukkan nama anda&quot;" newline="True"/>
+            <input variable="nama"/>
+            <output expression="&quot;masukkan ipk anda&quot;" newline="True"/>
+            <input variable="ipk"/>
+            <output expression="&quot;masukkan skor anda&quot;" newline="True"/>
+            <input variable="skor"/>
+            <if expression="ipk &gt;= 3.0 and skor &gt;1100">
+                <then>
+                    <output expression="&quot; lulus pernyataan beasiswa &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot; tidak lulus pernyataan beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
