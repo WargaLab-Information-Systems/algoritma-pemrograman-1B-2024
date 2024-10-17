@@ -1,0 +1,1 @@
+membuat program untuk menanyakan apakah sudah makan dan minum yang akan menghasilkan output kamu berangkat tepat waktu apabila menginputkan sudah dan akan menghasilkan output total waktu persiapan 30 menit apa bila menginputkan belum.
