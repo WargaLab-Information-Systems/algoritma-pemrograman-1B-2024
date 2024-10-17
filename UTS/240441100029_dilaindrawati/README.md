@@ -1,0 +1,1 @@
+disini ada variabel makan untuk menampung jawaban dari inputan ya atau tidak kemudian ada variabel jam makan untuk menampung sebesar 15, jam mandi sebesar 10 dan total menampung angka 0, kemudian ada perulangan berkali kali            
