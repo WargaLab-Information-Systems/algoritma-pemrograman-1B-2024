@@ -1,1 +1,0 @@
-pertama kita membuat variabel makan, mandi dan transportasi lalu kita membuat inputan dari pengguna dari variabel tersebut, dan buat perintah if-else untuk masing masing varibel.
