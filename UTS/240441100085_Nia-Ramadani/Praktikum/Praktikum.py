@@ -7,6 +7,6 @@ Jawaban = "sudah"
 Jawaban2 = "belum"
 if Jawaban :
     print("Kamu berangkat tepat waktu")
-elif  Jawaban2 :
+else  :
     print("Total waktu persiapan 30 menit")
 
