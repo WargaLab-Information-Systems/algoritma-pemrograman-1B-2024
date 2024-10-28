@@ -11,7 +11,7 @@ for hari in range(1, 8):
 
     total_gaji_satu_minggu += gaji_harian
 
-    if total_lembur_mingguan >= maks_lembur_mingguan:
+    if total_lembur_mingguan > maks_lembur_mingguan:
         print("Lembur dihentikan. Total lembur mingguan sudah mencapai batas.")
         continue  
 
@@ -30,7 +30,7 @@ for hari in range(1, 8):
     elif jam_lembur > 0:
         gaji_lembur = jam_lembur * 25000
     else:
-        gaji_lembur = 0  # Tidak ada lembur
+        gaji_lembur = 0  
 
     total_lembur_mingguan += jam_lembur
     total_gaji_lembur += gaji_lembur

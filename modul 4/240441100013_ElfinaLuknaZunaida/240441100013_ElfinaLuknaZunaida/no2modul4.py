@@ -16,7 +16,7 @@ while True:
     digit = biner[i - 1:i] 
     if digit == "":  
         break
-    print(biner[:i]) 
-    i += 1  
+    print(biner[:1]) 
+    i += 1
 
 
