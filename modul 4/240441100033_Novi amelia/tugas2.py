@@ -12,3 +12,4 @@ print(f"hasil konversi ke biner:", {biner})
 print("pola segitiga")
 for i in range (1,panjang_biner + 1):
     print(biner[:i]) #mencetak subtring #mengambil 1 karakter setiap baris
+    

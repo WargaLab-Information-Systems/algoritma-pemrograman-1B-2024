@@ -21,3 +21,4 @@ for i in range(total_baris):
         else:
             print(" ", end="")
     print()
+    

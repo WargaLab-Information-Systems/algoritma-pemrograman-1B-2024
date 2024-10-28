@@ -32,6 +32,7 @@ for hari in range(1, 8):
         bonus = 200000
     elif jam_lembur == 8:
         bonus = 300000
+    
         
 
 # Tambahkan bonus lembur ke total gaji lembur
