@@ -1,0 +1,3 @@
+Disini saya membuat variabel makan, mandi, dan cek_transportasi untuk menerima inputan berupa pertanyaan iy/tidak, dan motor/jalankaki, juga ada variabel total_waktu, dan waktu_maksimal untuk menyimpan nilai
+Lalu ada perkondisian pada variabel makan jika menginputkan iya, maka akan langsung lanjut dan jika inputan tidak, maka akan ada waktu 15 menit buat makan. begitupun juga mandi, cuman dapat total waktu 10 menit
+dan jika inputkan motor makan total waktu 15 m3nit, jika jalan kaki ada total wktu 30 menit

@@ -4,7 +4,7 @@ if usia < 18:
     print("Maaf usia anda belum mencukupi")
 else:
     totalBelanja = float(input("Masukan Total Belanja : "))
-    punyaKartuMember = True if input("Apakah Pembeli Memiliki Kartu Member? (Ya/Tidak) : ") == "ya" else False
+    punyaKartuMember = True if input("Apakah Pembeli Memiliki Kartu Member? (Ya/Tidak) : ") == "Ya" else False
     diskon = 1 - 0.15 if punyaKartuMember else 1
 
     if totalBelanja >= 500000:
