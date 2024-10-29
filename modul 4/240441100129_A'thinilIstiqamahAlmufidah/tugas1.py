@@ -1,0 +1,25 @@
+# Input dari pengguna
+ukuran = int(input("Masukkan ukuran sisi belah ketupat: "))
+karakter = input("Masukkan karakter pilihan (misal x / o): ")
+
+# Menghitung jumlah baris
+total_baris = 2 * ukuran - 1
+
+# Loop untuk setiap baris
+for i in range(total_baris):
+    # Menentukan jumlah spasi di awal baris
+    if i < ukuran:
+        spasi = ukuran - i - 1
+    else:
+        spasi = i - ukuran + 1
+
+    # Membangun baris ketupat
+    baris = ""
+    for j in range(total_baris):
+        if (j >= spasi and j < total_baris - spasi) and ((i + j) % 2 == 0):
+            baris += karakter
+        else:
+            baris += " "
+
+    # Menampilkan baris
+    print(baris) 
