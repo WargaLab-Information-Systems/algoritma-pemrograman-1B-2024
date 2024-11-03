@@ -1,0 +1,2 @@
+saya membuat program untuk mebantu waktu dalam proses pemberangakatan kuliah
+pada langkah awal saya ingin membuat variabel terdiri dari makan,mandi,kendaran, setalah itu dengan adanya seleksi kondisi ini akan membagi banya peristiwa yang terjadi, untuk membantu keberangkatan.
