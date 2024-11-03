@@ -1,8 +1,15 @@
-angka = input("Masukkan angka bulat: ")
+angka_input = input("Masukkan angka bulat: ")
+angka_dinamis = str(angka_input)
+angka_terbalik = ''
 
-angka_balik = '' #sebagai string kosong
-for digit in angka:
-    angka_balik = digit + angka_balik
+for i in angka_dinamis:
+    angka_terbalik = i + angka_terbalik
 
-# hasil
-print(f"Angka setelah dibalik: {angka_balik}")
+print('angka terbalik', angka_terbalik)
+
+
+        
+  
+
+
+
