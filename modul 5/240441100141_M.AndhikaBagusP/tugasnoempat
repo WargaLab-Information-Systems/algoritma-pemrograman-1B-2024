@@ -1,0 +1,13 @@
+def cek_palindrom(kata):
+    palindrom = ""
+    for i in kata:
+        palindrom = i + palindrom
+        
+    if kata == palindrom:
+        return "is_palindrom"
+    
+    if kata != palindrom: 
+        return False    
+    
+kata = "kasur rusak".lower()
+print(f"Apakah kata {kata} termasuk palindrom?", cek_palindrom(kata))

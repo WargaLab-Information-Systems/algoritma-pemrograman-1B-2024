@@ -1,0 +1,9 @@
+def faktorial(angka):
+    fact = 1
+    for i in range(1, angka+1):
+        fact *= i
+    return fact 
+        
+angka = 5
+hasil = faktorial(angka)
+print("Hasil faktorial dari", angka, "adalah", hasil)
