@@ -15,16 +15,16 @@ def calculate_discount():
             else :
                 print("Harap masukkan jenis member yang sesuai")
 
-            if membership == "tidak" :
-                diskon = 0.0
-                print("Anda tidak mendapatkan diskon")
-            if total_belanja > 1000000:
-                diskon +=0.05
-                print("Selamat anda mendapatkan diskon tambahan sebesar 5% karena belanjaan anda melebihi 1 juta ")
+        if membership == "tidak" :
+            diskon = 0.0
+            print("Anda tidak mendapatkan diskon")
+        if total_belanja > 1000000:
+            diskon +=0.05
+            print("Selamat anda mendapatkan diskon tambahan sebesar 5% karena belanjaan anda melebihi 1 juta ")
                 
-            total = total_belanja * diskon
-            after_diskon = total_belanja - total
-            return total, after_diskon
+        total = total_belanja * diskon
+        after_diskon = total_belanja - total
+        return total, after_diskon
 total, after_diskon = calculate_discount ()
 print(f"total diskon yang didapat : Rp{total}")
 print(f"Total yang harus dibayar : Rp{after_diskon}")

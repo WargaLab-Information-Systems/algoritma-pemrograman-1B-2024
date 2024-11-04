@@ -1,4 +1,4 @@
-def fibonacci(n):
+def faktorial(n):
     if n == 0 or n == 1:
         return 1
     else:
@@ -11,4 +11,4 @@ def fibonacci(n):
         return hasil
 
 n = int(input("Masukkan nilai n: "))
-fibonacci(n)
+faktorial(n)
