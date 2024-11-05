@@ -14,7 +14,7 @@ elif rata_rata_nilai >=71 <=80:
     predikat = ("B")
 elif rata_rata_nilai >=61 <=70:
     predikat = ("C")
-elif rata_rata_nilai >=41 >=60:
+elif rata_rata_nilai >=41<=60:
     predikat = ("D")
 elif rata_rata_nilai >=0 <=40:
     predikat = ("E")
