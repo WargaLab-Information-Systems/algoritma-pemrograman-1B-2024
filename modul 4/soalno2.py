@@ -9,7 +9,7 @@ while angka > 0:
     angka //= 2  # Bagi angka dengan 2
 
 print(f"Bilangan biner dari {desimal} adalah: {biner}")
-
+ 
 panjang = 0
 for _ in biner:
     panjang += 1

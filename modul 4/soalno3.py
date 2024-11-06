@@ -8,24 +8,20 @@ total_jam_lembur = 0
 
 print("Masukkan jam lembur untuk 7 hari:")
 
-# Input jam lembur untuk setiap hari dan perhitungan lembur
 for hari in range(1, 8):
     lembur = int(input(f"Jam lembur hari ke-{hari}: "))
 
-    # Validasi batas lembur harian
     if lembur > maks_lembur_per_hari:
         print("Lembur melebihi batas, tidak dihitung.")
         lembur = 0
 
-    total_jam_lembur += lembur  # Akumulasi total jam lembur mingguan
+    total_jam_lembur += lembur 
 
-    # Cek batas lembur mingguan
     if total_jam_lembur >= batas_lembur_mingguan:
         print(f"Lembur hari ke-{hari} dihentikan karena melebihi batas mingguan.")
-        total_jam_lembur = batas_lembur_mingguan  # Set ke batas maksimal
-        break  # Keluar dari loop karena lembur dihentikan
+        total_jam_lembur = batas_lembur_mingguan 
+        break
 
-    # Hitung bonus lembur harian
     if lembur == 0:
         bonus_lembur = 0
     elif lembur < 4:
@@ -40,7 +36,6 @@ for hari in range(1, 8):
     total_gaji_lembur += bonus_lembur
     print(f"Bonus lembur hari ke-{hari}: Rp{bonus_lembur:,}")
 
-# Hitung total gaji mingguan tanpa lembur dan dengan lembur
 total_gaji_reguler = gaji_harian * 7
 total_gaji_mingguan = total_gaji_reguler + total_gaji_lembur
 
