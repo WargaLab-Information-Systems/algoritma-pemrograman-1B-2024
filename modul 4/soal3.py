@@ -27,6 +27,7 @@ for hari in range(1, 8):
 
     # Hitung bonus lembur harian
     bonus_lembur = 0
+    
     if lembur == 0:
         bonus_lembur
     elif lembur < 4:
