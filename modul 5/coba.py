@@ -95,9 +95,9 @@
 # fungsi()
 # print("diluar fungsi, x")
 
-# def halo_dunia():
-#     print 'Halo Dunia!'
+def halo_dunia():
+    print 'Halo Dunia!'
     
-# halo_dunia()    #Memanggil fungsi halo_dunia
+halo_dunia()    #Memanggil fungsi halo_dunia
 # halo_dunia()    #fungsi halo_dunia dipanggil lagi
 

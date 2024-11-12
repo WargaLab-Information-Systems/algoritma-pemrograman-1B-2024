@@ -14,11 +14,12 @@ def calculate_discount(total_belanja, membership):
     # Menghitung total setelah diskon
     total_diskon = total_belanja * discount
     total_setelah_diskon = total_belanja - total_diskon
-    
+    # print("Total setelah diskon:", total_setelah_diskon)
     return total_setelah_diskon
 
 total_belanja = float(input("Masukkan total belanja: "))
 membership = input("Masukkan jenis keanggotaan (gold/silver/bronze/gapunya): ")
 
-total_setelah_diskon = calculate_discount(total_belanja, membership)
-print("Total setelah diskon:", total_setelah_diskon)
+calculate_discount(total_belanja, membership)
+# total_setelah_diskon = calculate_discount(total_belanja, membership)
+# print("Total setelah diskon:", total_setelah_diskon)
