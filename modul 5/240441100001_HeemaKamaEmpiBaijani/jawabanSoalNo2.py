@@ -1,12 +1,12 @@
-num = int(input("masukkan angka: "))
+n = int(input("masukkan angka: "))
 
-def fibonacci(num):
-  if num == 0:
+def fibonacci(n):
+  if n == 0:
     return 0
-  elif num == 1:
+  elif n == 1:
     return 1
   else:
-    return fibonacci(num-1) + fibonacci(num-2)
+    return fibonacci(n-1) + fibonacci(n-2)
 
-for i in range(num):
+for i in range(n):
   print(fibonacci(i))
