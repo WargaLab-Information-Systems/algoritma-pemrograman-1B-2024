@@ -7,7 +7,7 @@ def faktorial(n):
         hasil = 1
         hitung = ""
         for i in range(n, 0, -1):
-            # print(i)
+            print(i)
             hasil *= i
             hitung += f"{i} x " if i > 1 else f"{i}"
         return f"{n}! = {hitung} = {hasil}"

@@ -116,43 +116,45 @@
 
 
 
-# Tupleeee
-daftar_belanja = []
+# # Tupleeee
+# daftar_belanja = []
 
-# tambah data
-def tambah_data(nama_barang, jumlah):
-    daftar_belanja.append[(nama_barang, jumlah)]
-    print(f"{nama_barang} berhasil ditambahkan")
+# # tambah data
+# def tambah_data(nama_barang, jumlah):
+#     daftar_belanja.append[(nama_barang, jumlah)]
+#     print(f"{nama_barang} berhasil ditambahkan")
 
-def tampilkan_barang():
-    if daftar_belanja:
-        print("daftar barang")
-        for item in daftar_belanja:
-            print(f"nama barang = {item[0]}, jumlah = {item[1]}")
+# def tampilkan_barang():
+#     if daftar_belanja:
+#         print("daftar barang")
+#         for item in daftar_belanja:
+#             print(f"nama barang = {item[0]}, jumlah = {item[1]}")
 
-    else:
-        print("daftar belanja kosong")
+#     else:
+#         print("daftar belanja kosong")
 
-def menu():
-    while True:
-        print("menu :")
-        print("1. tambah item")
-        print("2. tampilkan item")
-        print("3. ubah data item")
-        print("4. hapus data item ")
-        print("0. keluar")
+# def menu():
+#     while True:
+#         print("menu :")
+#         print("1. tambah item")
+#         print("2. tampilkan item")
+#         print("3. ubah data item")
+#         print("4. hapus data item ")
+#         print("0. keluar")
 
-        pilihan = input("pilih menu :")
-        if pilihan == "1" :
-            nama_barang = input("masukan nama barang :")
-            jumlah = input("masukan jumlah barang :")
-            tambah_data(nama_barang, jumlah)
-            break
-        elif pilihan == "2":
-            nama_barang = input("masukan nama barang :")
-            jumlah = input("masukan jumlah barang :")
-            tambah_data(nama_barang, jumlah)
-            break
+#         pilihan = input("pilih menu :")
+#         if pilihan == "1" :
+#             nama_barang = input("masukan nama barang :")
+#             jumlah = input("masukan jumlah barang :")
+#             tambah_data(nama_barang, jumlah)
+#             break
+#         elif pilihan == "2":
+#             nama_barang = input("masukan nama barang :")
+#             jumlah = input("masukan jumlah barang :")
+#             tambah_data(nama_barang, jumlah)
+#             break
     
-        else:
-            print("salah")
+#         else:
+#             print("salah")
+
+

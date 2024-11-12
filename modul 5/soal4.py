@@ -1,6 +1,7 @@
 def cek_palindrom(kata):
     kata = kata
     # Membandingkan kata dengan kebalikannya
+    print(kata[::-1])
     return kata == kata[::-1]
     
 
