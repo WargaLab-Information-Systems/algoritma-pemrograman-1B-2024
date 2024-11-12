@@ -27,17 +27,3 @@ try:
 except ValueError:
     print("Input tidak valid. Pastikan Anda memasukkan angka untuk total belanja.")
 
-def halo_dunia():          
-    print("halo dunia!")
-
-# baris 1 : memanggil fungsi halo_dunia
-# baris 2 : fungsi halo_dunia di panggil lagi
-
-
-# def tambah(a, b):
-#     hasil = a + b
-#     return hasil
-
-def hitung_luas_persegi_panjang(panjang, lebar):
-    luas = panjang * lebar 
-    return luas
