@@ -24,6 +24,13 @@
 # for row in hasil:
 #     print(row)
 
+list1= ['fisika',  'kimia', 'bilogi', 1976]
+print(list1)
+del list1[2];
+print("setelah nilai index kedua dihapus: ")
+print(list1)
+
+
 #LIST
 # list_buah = ['apel', 'apel']
 # print(list_buah[0])
@@ -61,5 +68,38 @@
 #     print(i)
     
 #TUPLE
-tuple_buah = ('manga', 'apel')
-print(tuple_buah)
+# tuple_buah = ('manga', 'apel')
+
+# tuple_buah[0] = 'anggur' #tidak dapat mengganti data
+# print(tuple_buah)
+
+#daftar belanja (studi kasus)
+# daftar_belanja = []
+# #menambahkan data
+# def tambah_data (nama_barang, jumlah_barang):
+#     daftar_belanja.append(nama_barang, jumlah_barang)
+#     print(f"{nama_barang} berhasil ditambahkan")
+
+# def tampilkan_barang():
+#     print('daftar belanja')
+#     for item in daftar_belanja:
+#         print(f"{nama_barang} berhasil ditambahkan")
+# def menu():
+#     while True:
+#         print("menu: ")
+#         print("1. Tambah Item: ")
+#         print("2. Tampilkan Item: ")
+#         print("3. Ubah Data Item: ")
+#         print("4. Hapus Data Item: ")
+#         print("0. keluar: ")
+    
+#         pilihan = input('pilih menu')
+#         if pilihan == '1':
+#             nama_barang = input('masukkan nama barang')
+#             jumlah_barang = input('jumlah barang')
+#             tambah_data(nama_barang, jumlah_barang)
+#             break
+#         else:
+#             print('inputan salah')        
+      
+# menu()
