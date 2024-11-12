@@ -22,6 +22,6 @@ total_belanja = float(input("Masukkan total belanja: "))
 keanggotaan = input("Masukkan jenis keanggotaan: ")
 
 # Menghitung diskon
-diskon = calculate_discount(total_belanja, keanggotaan)
-print(f"Diskon yang didapat: {diskon}")
-print(f"Total belanja :{total_belanja - diskon}")
+# diskon = calculate_discount(total_belanja, keanggotaan)
+print("Diskon yang didapat: ", calculate_discount(total_belanja, keanggotaan))
+print(f"Total belanja :{total_belanja - calculate_discount(total_belanja, keanggotaan)}")
