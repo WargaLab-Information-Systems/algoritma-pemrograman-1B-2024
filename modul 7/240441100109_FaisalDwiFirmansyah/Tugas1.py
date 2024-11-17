@@ -1,15 +1,15 @@
 alat_kesehatan = {
     "pengukur tekanan darah": 0,
     "termometer": 0,
-    "pengukur kadar gula darah": 0,
-    "pengukur tensi": 0
+    "stetoskop": 0,
+    "inhaler": 0
 }
 
 daftar_alat = [
     "pengukur tekanan darah",
     "termometer",
-    "pengukur kadar gula darah",
-    "pengukur tensi"
+    "stetoskop",
+    "inhaler"
 ]
 
 def pinjam_alat(nama_alat, jumlah):
