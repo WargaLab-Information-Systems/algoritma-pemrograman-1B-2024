@@ -8,7 +8,7 @@ satu_klub = klub_basket.symmetric_difference(klub_renang) - (kedua_klub)
 print(f"Siswa yang mengikuti satu klub saja adalah : {satu_klub}")
 
 semua_siswa = klub_basket.union(klub_renang)
-print(f"Menampilkan daftar semua siswa yang mengikuti setidaknya satu klub adalah : {semua_siswa}")
+print(f"Menampilkan semua siswa yang mengikuti setidaknya satu klub adalah : {semua_siswa}")
 
 jumlah_siswa = len(semua_siswa)
 print(f"Jumlah siswa unik yang mengikuti setidaknya satu klub adalah : {jumlah_siswa}")
