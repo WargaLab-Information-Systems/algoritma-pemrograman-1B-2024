@@ -1,8 +1,8 @@
 alat_kesehatan = {
     'pengukur tekanan darah': 0, 
     'termometer': 0,              
-    'pengukur gula darah': 0,     
-    'pengukur tensi': 0          
+    'stetoskop': 0,     
+    'alat inhaler': 0          
 }
 
 def pinjam_alat(jenis, jumlah):
@@ -20,11 +20,11 @@ def kembalikan_alat(jenis, jumlah):
 def tukar_alat(jenis_baru, jumlah_baru, jenis_lama, jumlah_lama):
     kembalikan_alat(jenis_lama, jumlah_lama)  
     pinjam_alat(jenis_baru, jumlah_baru)   
-    print(f"Gagal menukar. pastikan jumlah yang dimasukkan benar dan tersedia")
+
     
 def input_peminjaman():
     print("\nMasukkan jenis alat yang ingin dipinjam:")
-    jenis = input("Pengukur Tekanan Darah, Termometer, Pengukur Gula Darah, Pengukur Tensi: ").lower()
+    jenis = input("Pengukur Tekanan Darah, Termometer, Stetoskop, Alat Inhaler: ").lower()
     jumlah = int(input("Masukkan jumlah alat yang ingin dipinjam: "))
     
     if jenis in alat_kesehatan:
@@ -34,7 +34,7 @@ def input_peminjaman():
 
 def input_pengembalian():
     print("\nMasukkan jenis alat yang ingin dikembalikan:")
-    jenis = input("Pengukur Tekanan Darah, Termometer, Pengukur Gula Darah, Pengukur Tensi: ").lower()
+    jenis = input("Pengukur Tekanan Darah, Termometer, Stetoskop, Alat Inhaler: ").lower()
     jumlah = int(input("Masukkan jumlah alat yang ingin dikembalikan: "))
     
     if jenis in alat_kesehatan:
@@ -44,11 +44,11 @@ def input_pengembalian():
 
 def input_penukaran():
     print("\nMasukkan jenis alat yang ingin ditukar:")
-    jenis_lama = input("Pengukur Tekanan Darah, Termometer, Pengukur Gula Darah, Pengukur Tensi: ").lower()
+    jenis_lama = input("Pengukur Tekanan Darah, Termometer, Stetoskop, Alat Inhaler: ").lower()
     jumlah_lama = int(input("Masukkan jumlah alat lama yang ingin ditukar: "))
     jenis_baru = input("Masukkan jenis alat baru yang ingin dipinjam: ").lower()
     jumlah_baru = int(input("Masukkan jumlah alat baru yang ingin dipinjam: "))
-    
+
     if jenis_lama in alat_kesehatan and jenis_baru in alat_kesehatan:
         tukar_alat(jenis_baru, jumlah_baru, jenis_lama, jumlah_lama)
     else:
