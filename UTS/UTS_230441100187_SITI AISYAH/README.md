@@ -1,0 +1,3 @@
+program ini menjelaskan tentang bagaimana kamu jika ingin pergi ke kampus,
+dengan ,menanyakan kamu suah makan,mandi,dan kamu ingin sampai ke kampus dengan berjalan kaki atau memakai motor,program ini juga bisa menampilkan seberapa lama kamu menempuh kampus tersebut,
+program nanti akan meminta inputan tentang ingin mandi,makan dan berjalan kaki atau memakai motor sehingga akan menampilkan kamu terlambat tidaknya ke kampus,
