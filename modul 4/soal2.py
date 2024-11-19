@@ -18,6 +18,6 @@ print("Bilangan biner:", biner)
 # Mencetak pola
 print("Pola segitiga:")
 for i in range(1, len(biner) + 1):
-    print(biner)
+    print(biner[:1])
 
 print(len(biner))

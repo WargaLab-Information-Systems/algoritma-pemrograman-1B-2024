@@ -20,7 +20,7 @@ for hari in range(1, 8):
 
     total_jam_lembur += lembur
 
-    if total_jam_lembur > 40:
+    if total_jam_lembur > batas_lembur_mingguan:
         print("Total lembur telah mencapai 40 jam, lembur dihentikan.")
         lembur -= (total_jam_lembur - 40)
         total_jam_lembur = 40

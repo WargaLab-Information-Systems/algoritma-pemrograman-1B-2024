@@ -28,13 +28,13 @@ while True :
         while True :
             total_belanja = int(input("Berapa total belanja Anda? : "))
             tipe_member = input("Apa tipe member Anda? (gold/silver/bronze/tidak): ").strip().lower()
-            calculate_discount(total_belanja, tipe_member)
-            print(calculate_discount(total_belanja, tipe_member))
-            # total_akhir, total_diskon = calculate_discount(total_belanja, tipe_member)
+            # calculate_discount(total_belanja, tipe_member)
+            # print(calculate_discount(total_belanja, tipe_member))
+            total_akhir, total_diskon = calculate_discount(total_belanja, tipe_member)
 
-            # print(f"Total belanja: {total_belanja}")
-            # print(f"Diskon: {total_diskon:.2f}")
-            # print(f"Jumlah yang harus dibayar: {total_akhir:.2f}")
+            print(f"Total belanja: {total_belanja}")
+            print(f"Diskon: {total_diskon:.2f}")
+            print(f"Jumlah yang harus dibayar: {total_akhir:.2f}")
             print()
 
             ulang_pengitungan = input("apakah anda ingin mengulang penghitungan anda? (y/n) : ")
@@ -51,3 +51,13 @@ while True :
             print("program berhenti")
             break
         print()
+
+
+
+
+
+
+
+
+
+        
