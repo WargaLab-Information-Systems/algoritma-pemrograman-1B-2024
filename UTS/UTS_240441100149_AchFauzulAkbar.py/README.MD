@@ -1,0 +1,1 @@
+Pada program tersebut berisi perintah untuk membuat program berisi operator logika, operator aritmatika, seleksi kondisi,da juga perulangan. terdiri dari kode if, elif, else, while (untuk perulangan), dan aritmatika untuk menjumlahkan.
