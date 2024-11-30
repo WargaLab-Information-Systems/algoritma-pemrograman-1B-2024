@@ -21,3 +21,20 @@ n = 8
 
 jumlahsukupertama = (n / 2)*(2 * a + (n - 1 )* b) # Un = a + (n - 1)*b #Sn = n/2 (a+Un) 
 print("jumlah nilai dari 8 suku pertama adalah" , jumlahsukupertama)
+
+
+
+
+
+sj = 1100
+ij = 3.5
+si = 1000
+ii = 3.5
+if sj >= 1100 and ij >= 3.0:
+    print("Jaka Lolos")
+else:
+    print("Jaka Gagal")
+if si >= 1100 and ii >= 3.0:
+    print("Ida Lolos")
+else:
+    print("Ida Gagal")
