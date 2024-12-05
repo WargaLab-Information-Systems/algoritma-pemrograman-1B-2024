@@ -1,0 +1,1 @@
+pertama kita buat variabel makan, mandi, dan transportasi lalu masukkan inputan dari pengguna untuk variabel tersebut dan menggunakan if-else untuk menyeleksi kondisi iya atau tidak dari masing masing variabel tersebut
