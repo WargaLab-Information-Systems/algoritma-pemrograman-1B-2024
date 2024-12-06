@@ -1,0 +1,2 @@
+langkah pertama masukan variabel sarapan, mandi, transportasi. masukan setiap ketentuan waktu.  gunakan seleksi kondisi untuk menanyakan apakah harus makan atau tidak. 
+ gunakan perulangan untuk memastikan apakah benar atau tidak. tampilkan pesa terlambat atau tidak.
